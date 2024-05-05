@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Página de Presentación para el Profesor Armando Di Filippo
 
-## Getting Started
+Esta página web ha sido creada como una presentación dedicada al profesor Armando Di Filippo. Utiliza las últimas tecnologías y técnicas de desarrollo web para ofrecer una experiencia moderna y atractiva.
 
-First, run the development server:
+## Características principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Diseño moderno y atractivo**: La página ha sido diseñada cuidadosamente para ofrecer una apariencia visualmente agradable y profesional.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Responsive**: La página se adapta a diferentes dispositivos y tamaños de pantalla, asegurando una experiencia óptima tanto en computadoras de escritorio como en dispositivos móviles.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Tecnologías de vanguardia**: Se han utilizado las últimas tecnologías y herramientas de desarrollo web, como HTML5, CSS3 y JavaScript, para garantizar un rendimiento óptimo y una experiencia de usuario fluida.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Interactividad**: La página incluye elementos interactivos, como animaciones, transiciones suaves y efectos visuales, para mejorar la experiencia del usuario y hacerla más atractiva.
 
-## Learn More
+- **Contenido informativo**: Se ha incluido contenido relevante y detallado sobre el profesor Armando Di Filippo, su experiencia, logros y áreas de especialización.
 
-To learn more about Next.js, take a look at the following resources:
+## Cómo utilizar esta página
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona este repositorio en tu máquina local.
+2. Abre el archivo `index.html` en tu navegador web.
+3. Explora la página y descubre más sobre el profesor Armando Di Filippo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Esperamos que disfrutes de esta página de presentación y encuentres toda la información que estás buscando sobre el profesor Armando Di Filippo!
