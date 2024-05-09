@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import { getBlogs } from "../src/peticiones.js";
+import React from "react";
 
 export default function Blog() {
-	const [blogs, setBlogs] = useState([]);
+	const [blogs, setBlogs] = React.useState([]);
 
-	useEffect(() => {
+	React.useEffect(() => {
 		fetchBlogContent();
 	}, []);
 
 	const fetchBlogContent = async () => {
 		try {
-			const response = await fetch("https://api.example.com/blogs");
-			const data = await response.json();
+			const data = await getBlogs();
 			setBlogs(data);
 		} catch (error) {
 			console.error("Error fetching blog content:", error);
