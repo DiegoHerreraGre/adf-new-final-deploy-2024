@@ -8,7 +8,6 @@ import { NavBar } from "../app/components/navbar/NavBar";
 import { IconBrandGithub } from "@tabler/icons-react";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
-import { config } from "../config";
 
 export default function ContactMe() {
 	const [firstname, setFirstname] = React.useState("");
@@ -30,7 +29,7 @@ export default function ContactMe() {
 	const handleSubmit2 = (e) => {
 		e.preventDefault();
 		emailjs.init({
-			publicKey: config.emailjsPublicKey,
+			publicKey: process.env.EMAILJSPUBLICKEY,
 			blockHeadless: true,
 			limitRate: {
 				id: "app",
@@ -39,7 +38,7 @@ export default function ContactMe() {
 		});
 
 		emailjs
-			.send(config.emailjsServiceId, config.emailjsTemplateId, {
+			.send(process.env.EMAILJSSERVICEID, process.env.EMAILJSTEMPLATEID, {
 				from_firstname: firstname,
 				from_lastname: lastname,
 				message: message,
@@ -52,8 +51,8 @@ export default function ContactMe() {
 			});
 
 		emailjs.sendForm(
-			config.emailjsServiceId,
-			config.emailjsTemplateId,
+			process.env.EMAILJSSERVICEID,
+			process.env.EMAILJSTEMPLATEID,
 			"#form-for-dhg"
 		);
 		console.log("Form submitted");

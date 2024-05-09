@@ -1,8 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
-import { config } from "../config";
 
-const supabaseUrl = config.apiKeySupabase;
-const supabaseKey = config.apiUrlSupabase;
+const supabaseUrl = process.env.APIURLSUPABASE;
+const supabaseKey = process.env.APIKEYSUPABASE;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export const fetchBlogs = async (req, res) => {
