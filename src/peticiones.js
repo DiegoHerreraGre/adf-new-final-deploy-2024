@@ -7,7 +7,7 @@ export const fetchBlogs = async (req, res) => {
 	try {
 		// Parse the request body only if it's a POST request and has a JSON content type
 		if (
-			req.method === "POST" &&
+			req.method === "GET" &&
 			req.headers["content-type"] === "application/json"
 		) {
 			req.body = JSON.parse(req.body);
