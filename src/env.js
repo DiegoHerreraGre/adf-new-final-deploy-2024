@@ -7,7 +7,6 @@ export const env = createEnv({
 		APIKEYSUPABASE: z.string(
 			"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxmaHVucmpjY3p0cmt6bmhiY2xmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTUyMTM2NjYsImV4cCI6MjAzMDc4OTY2Nn0.oDjDFH84aSS6nCqWJ0JpclI5Cy4fWkgOaao6v0M0kL8"
 		),
-		APIURLSUPABASE: z.string("https://lqjvqjccztrkznbclfx.supabase.co"),
 		EMAILJSPUBLICKEY: z.string("Y1unP1oWpwcmvdmn1"),
 		EMAILJSSERVICEID: z.string("service_okbl3ew"),
 		EMAILJSTEMPLATEID: z.string("template_b54056f"),
